@@ -1,0 +1,29 @@
+body{
+     
+   background-color: rgb(15, 52, 86);
+    color: black;
+      
+}
+.card{ background: linear-gradient(45deg,red,blue,green);
+    color: black;
+    font-size: bold;
+}
+h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align: center;
+}
+h1{text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+position: sticky;
+width: 100%;
+background-color: blueviolet;
+top: 0px;
+}
+div#cardxml {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
