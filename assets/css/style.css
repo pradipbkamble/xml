@@ -2,6 +2,7 @@ body{
      
    background-color: rgb(15, 52, 86);
     color: black;
+    cursor: pointer;
       
 }
 .card{ background: linear-gradient(45deg,red,blue,green);

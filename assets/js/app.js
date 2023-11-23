@@ -15,7 +15,7 @@ let templating= (temp) =>{
     temp.forEach(elem => {
        result +=`
        
-        <div class="col-md-6 offset-md-3">
+        
         <div class="card mb-2">
             <div class="card-header">
              <h3>${elem.title}</h3>
@@ -65,7 +65,7 @@ xhr.send(JSON.stringify(cardobj));
 xhr.onload=function() {
 if(xhr.status===200 || xhr.status===201){
 
-    arr1.id=JSON.parse(xhr.response).id;
+    cardobj.id=JSON.parse(xhr.response).id;
 arr1.push(cardobj);
 templating(arr1);
 Swal.fire({
