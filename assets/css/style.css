@@ -5,11 +5,11 @@ body{
     cursor: pointer;
       
 }
-.card{ background: linear-gradient(45deg,red,blue,green);
+.card{ background-color: rgb(206, 245, 222);
     color: black;
     font-size: bold;
 }
-h3 {
+h3 {color: rgb(35, 72, 60);
     text-transform: capitalize;
     font-size: 24px;
     text-align: center;
